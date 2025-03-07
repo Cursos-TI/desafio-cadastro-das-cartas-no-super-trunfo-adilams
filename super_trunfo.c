@@ -1,5 +1,5 @@
 #include <stdio.h>
-cadastro carta 1
+
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 
