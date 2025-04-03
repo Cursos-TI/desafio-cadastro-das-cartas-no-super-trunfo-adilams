@@ -89,8 +89,17 @@ int main() {
      printf("PIB per Capita: Carta %d venceu (1)\n", pib_per_capita1 > pib_per_capita2);
      printf("Super Poder: Carta %d venceu (1)\n", super_poder1 > super_poder2);
 
+   
+    // Comparação pelo critério da população
+    printf("===== COMPARAÇÃO POR POPULAÇÃO =====\n");
     
+    if (populacao1 > populacao2) {
+        printf("Vencedora: %s (maior população: %d habitantes)\n", nome1, populacao1);
+    } else if (populacao2 > populacao1) {
+        printf("Vencedora: %s (maior população: %d habitantes)\n", nome2, populacao2);
+    } else {
+        printf("Empate! Ambas as cidades possuem a mesma população.\n");
+    }
 
     return 0;
 }
-
